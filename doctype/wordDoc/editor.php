@@ -9,8 +9,6 @@
         <title></title>
     </head>
     <body>
-        <?php
-        ehco "<script> alert("I am an alert box!"); </script>" ;
-        ?>
+        
     </body>
 </html>

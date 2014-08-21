@@ -10,7 +10,7 @@
     </head>
     <body>
         <?php
-        ehco "<script> alert("I am an alert box!"); </script>" ;
+            echo $_GET["file"];
         ?>
     </body>
 </html>

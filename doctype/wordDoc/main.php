@@ -8,8 +8,8 @@
     <body>
         WordDoc<br>
         <br>
-        Create my new WordDoc<br>
-        Open a shared WordDoc<br>
-        Open your own WordDoc<br>
+        Create my new <a href="openNew.php">WordDoc</a><br>
+        Open a shared <a href="openshared.php">WordDoc</a><br>
+        Open your own <a href="openYour.php">WordDoc</a><br>
     </body>
 </html>
