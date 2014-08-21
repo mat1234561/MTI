@@ -11,9 +11,6 @@
     <body>
         <?php
             switch ($_GET["boxgo"]) {
-                case "youtube":
-                    header( 'Location: http://youtube.com/' ) ;
-                    break;
                 case "test":
                     header( 'Location: test.php' ) ;
                     break;
@@ -30,7 +27,7 @@
                     header( 'Location: external/production/main.php' ) ;
                     break;
                 case "doctype":
-                    header( 'Location: doctype/index.html' ) ;
+                    header( 'Location: doctype/main.php' ) ;
                     break;
                 default:
                     header( 'Location: index.html' ) ;
