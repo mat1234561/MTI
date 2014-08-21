@@ -20,6 +20,9 @@
         <br>
         <br>
         Apps<br>
+        <table>
+        <tr>
+            <td>
         <div class="img">
         <a href="quizDoc/index.html">
             <img src="quizLogo.png" alt="PNG" width="68" height="68">
@@ -27,6 +30,8 @@
         <div class="desc">QuizDoc</div>
         </div>
         </div>
+            </td>
+            <td>
         <div class="img">
         <a href="surveyDoc/index.html">
             <img src="surveyLogo.png" alt="PNG" width="68" height="68">
@@ -34,14 +39,19 @@
         <div class="desc">SurveyDoc</div>
         </div>
         </div>
+            </td>
+            <td>
         <div class="img">
         <a href="wordDoc/index.html">
             <img src="wordLogo.png" alt="PNG" width="68" height="68">
         </a>
         <div class="desc">WordDoc</div>
         </div>
-        <br><br><br><br><br><br>
         </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
         <div class="img">
         <a href="webDoc/index.html">
             <img src="webLogo.png" alt="PNG" width="68" height="68">
@@ -49,6 +59,8 @@
         <div class="desc">WebDoc</div>
         </div>
         </div>
+            </td>
+            <td>
         <div class="img">
         <a href="showDoc/index.html">
             <img src="showLogo.png" alt="PNG" width="68" height="68">
@@ -56,6 +68,8 @@
         <div class="desc">ShowDoc</div>
         </div>
         </div>
+            </td>
+            <td>
         <div class="img">
         <a href="printDoc/index.html">
             <img src="printLogo.png" alt="PNG" width="68" height="68">
@@ -63,7 +77,10 @@
         <div class="desc">PrintDoc</div>
         </div>
         </div>
-        <br><br><br><br><br><br>
+            </td>
+        </tr>
+        <tr>
+            <td>
         <div class="img">
         <a href="timeDoc/index.html">
             <img src="timeLogo.png" alt="PNG" width="68" height="68">
@@ -71,5 +88,8 @@
         <div class="desc">TimeDoc</div>
         </div>
         </div>
+            </td>
+        </tr>
+        </table>
     </body>
 </html>
