@@ -56,5 +56,20 @@
         <div class="desc">ShowDoc</div>
         </div>
         </div>
+        <div class="img">
+        <a href="printDoc/index.html">
+            <img src="printLogo.png" alt="PNG" width="68" height="68">
+        </a>
+        <div class="desc">PrintDoc</div>
+        </div>
+        </div>
+        <br><br><br><br><br><br>
+        <div class="img">
+        <a href="timeDoc/index.html">
+            <img src="timeLogo.png" alt="PNG" width="68" height="68">
+        </a>
+        <div class="desc">TimeDoc</div>
+        </div>
+        </div>
     </body>
 </html>
