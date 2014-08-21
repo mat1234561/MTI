@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,10 +9,6 @@
         <title></title>
     </head>
     <body>
-        DocType Login<br>
-        <br>
-        Click <a href="../../profile/signin.php?contin=doctype/main.php">HERE</a> to login<br>
-        <br>
         
     </body>
 </html>

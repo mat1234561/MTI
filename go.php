@@ -27,7 +27,7 @@
                     header( 'Location: external/production/main.php' ) ;
                     break;
                 case "doctype":
-                    header( 'Location: doctype/main.php' ) ;
+                    header( 'Location: doctype/index.html' ) ;
                     break;
                 default:
                     header( 'Location: index.html' ) ;

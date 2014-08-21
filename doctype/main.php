@@ -24,7 +24,7 @@
         <tr>
             <td>
         <div class="img">
-        <a href="quizDoc/index.html">
+        <a href="quizDoc/main.php">
             <img src="quizLogo.png" alt="PNG" width="68" height="68">
         </a>
         <div class="desc">QuizDoc</div>
@@ -33,7 +33,7 @@
             </td>
             <td>
         <div class="img">
-        <a href="surveyDoc/index.html">
+        <a href="surveyDoc/main.php">
             <img src="surveyLogo.png" alt="PNG" width="68" height="68">
         </a>
         <div class="desc">SurveyDoc</div>
@@ -42,7 +42,7 @@
             </td>
             <td>
         <div class="img">
-        <a href="wordDoc/index.html">
+        <a href="wordDoc/main.php">
             <img src="wordLogo.png" alt="PNG" width="68" height="68">
         </a>
         <div class="desc">WordDoc</div>
@@ -53,7 +53,7 @@
         <tr>
             <td>
         <div class="img">
-        <a href="webDoc/index.html">
+        <a href="webDoc/main.php">
             <img src="webLogo.png" alt="PNG" width="68" height="68">
         </a>
         <div class="desc">WebDoc</div>
@@ -62,7 +62,7 @@
             </td>
             <td>
         <div class="img">
-        <a href="showDoc/index.html">
+        <a href="showDoc/main.php">
             <img src="showLogo.png" alt="PNG" width="68" height="68">
         </a>
         <div class="desc">ShowDoc</div>
@@ -71,7 +71,7 @@
             </td>
             <td>
         <div class="img">
-        <a href="printDoc/index.html">
+        <a href="printDoc/main.php">
             <img src="printLogo.png" alt="PNG" width="68" height="68">
         </a>
         <div class="desc">PrintDoc</div>
@@ -82,7 +82,7 @@
         <tr>
             <td>
         <div class="img">
-        <a href="timeDoc/index.html">
+        <a href="timeDoc/main.php">
             <img src="timeLogo.png" alt="PNG" width="68" height="68">
         </a>
         <div class="desc">TimeDoc</div>
