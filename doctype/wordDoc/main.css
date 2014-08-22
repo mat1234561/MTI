@@ -2,8 +2,8 @@ div.img {
     margin: 2px;
     padding: 2px;
     border: 2px solid #ff6a00;
-    height: 80px;
-    width: 120px;
+    height: 125px;
+    width: 85px;
     float: left;
     text-align: center;
 }
@@ -23,4 +23,7 @@ div.desc {
     width: auto;
     margin: 5px;
 	overflow-wrap: break-word;
+}
+a {
+	color: #000;
 }

@@ -2,10 +2,11 @@ div.img {
     margin: 2px;
     padding: 2px;
     border: 2px solid #ff6a00;
-    height: auto;
-    width: auto;
+    height: 125px;
+    width: 85px;
     float: left;
     text-align: center;
+	background-color: #ff6a00; 
 }
 
 div.img img {
@@ -20,22 +21,27 @@ div.img a:hover img {
 div.desc {
     text-align: center;
     font-weight: normal;
-    width: 70px;
+    width: auto;
     margin: 5px;
+	overflow-wrap: break-word;
 }
-
-div.pos {
-	margin: auto;
-	text-align: center;
-}
-a.signout {
+a {
 	color: #0000ff;
 }
-table {
-	text-align: center;
-	margin: auto;
+
+a.black {
+	color: #000000;
 }
 
-a {
-	color: #000000;
+body {
+	background-color: #808080;
+}
+
+input {
+	background-color: #abaaaa;
+	border: 2px initial #555555;
+}
+
+textarea {
+	background-color: #abaaaa;
 }
