@@ -14,11 +14,11 @@
 		<div class="box">
         <?php
 				
-                $d = dir("../../mtiUser/".$_COOKIE['user']."/docType/wordDocS");
+                $d = dir("../../mtiUser/".$_COOKIE['user']."/docType/webDocS");
                 while (($file = $d->read()) !== false){ 
                     if ($file != ".") {
 						if ($file != "..") {
-							$myfile = fopen("../../mtiUser/".$_COOKIE['user']."/docType/wordDocS/".$file."", "r");
+							$myfile = fopen("../../mtiUser/".$_COOKIE['user']."/docType/webDocS/".$file."", "r");
 							$nameS = fgets($myfile);
 							$userS = fgets($myfile);
 							$editS = fgets($myfile);

@@ -13,7 +13,7 @@
 		<a href="main.php">&#8592 Back</a>
 		<div class="box">
         <?php
-                $d = dir("../../mtiUser/".$_COOKIE['user']."/docType/wordDoc");
+                $d = dir("../../mtiUser/".$_COOKIE['user']."/docType/webDoc");
                 while (($file = $d->read()) !== false){ 
                     if ($file != ".") {
 						if ($file != "..") {
