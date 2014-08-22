@@ -13,9 +13,11 @@
 		<?php
 		$myfile = fopen("list.txt", "r");
 		$numb = 1;
-		while ($numb <= 4) {
+		while ($numb <= 5) {
 		echo "<tr>";
+		echo "<td>";
 		echo fgets($myfile);
+		echo "</td>";
 		echo "</tr><tr>";
 		$numa = 1;
 		while($numa <= 5) {
@@ -23,7 +25,9 @@
 			$line = fgets($myfile);
 			$myfileZ = fopen("movies/".$line."/name.txt", "r");
 			$name = fgets($myfileZ);
-			echo '<a href="movies/'.$line.'/index.html"><div class="img"><img src="movies/'.$line.'/img.png" alt="PNG" width="100" height="200"><div class="desc">'.$name.'</div></div></a>';
+			if ($line != "") {
+			echo '<a href="movies/'.$line.'/index.html"><div class="img"><img src="movies/'.$line.'/img.png" alt="PNG" width="115" height="215"><div class="desc">'.$name.'</div></div></a>';
+			}
 			fclose($myfileZ);
 			$numa++;
 			echo "</td>";
@@ -34,13 +38,5 @@
 		fclose($myfile);
 		?>
 		</table>
-
-        Full Directory<br>
-        <div class="img">
-            <a href="full.html">
-            <img src="movies/more.png" alt="PNG" width="100" height="200">
-            </a>
-            <div class="desc">See The Full Listings</div>
-        </div>
     </body>
 </html>

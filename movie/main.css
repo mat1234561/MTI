@@ -1,11 +1,11 @@
 div.img {
-    margin: 5px;
-    padding: 5px;
+    margin: 2px;
+    padding: auto;
     border: 2px solid #00ffd0;
-    height: auto;
-    width: auto;
     float: left;
     text-align: center;
+	width: 200px;
+	height: 300px;
 }
 
 div.img img {
@@ -21,6 +21,6 @@ div.img a:hover img {
 div.desc {
     text-align: center;
     font-weight: normal;
-    width: 120px;
+    width: 100px;
     margin: 5px;
 }
