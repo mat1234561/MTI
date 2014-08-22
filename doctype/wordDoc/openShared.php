@@ -10,7 +10,7 @@
         <title></title>
     </head>
     <body>
-		<<a href="main.php">&#8592 Back</a>
+		<a href="main.php">&#8592 Back</a>
 		<div class="box">
         <?php
 				
