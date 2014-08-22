@@ -6,6 +6,7 @@ div.img {
     width: 85px;
     float: left;
     text-align: center;
+	background-color: #ff6a00; 
 }
 
 div.img img {
@@ -25,17 +26,22 @@ div.desc {
 	overflow-wrap: break-word;
 }
 a {
-	color: #000;
+	color: #0000ff;
 }
-a.back {
-	color: #0200ff;
+
+a.black {
+	color: #000000;
 }
-mark {
-	background-color: #fff;
+
+body {
+	background-color: #808080;
 }
-mark.a {
-	color: #00ff21
+
+input {
+	background-color: #abaaaa;
+	border: 2px initial #555555;
 }
-mark.b {
-	color: #0200ff
+
+textarea {
+	background-color: #abaaaa;
 }

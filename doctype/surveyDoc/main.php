@@ -4,11 +4,11 @@
     <head>
         <meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="main.css">
-        <title>WordDoc</title>
+        <title>SurveyDoc</title>
     </head>
     <body>
 		<a class="back" href="../main.php">&#8592 Back</a>
-		<h1><mark class="a">Web</mark><mark class="b">Doc</mark></h1>
+		<h1><mark class="a">Survey</mark><mark class="b">Doc</mark></h1>
         <table>
         <tr>
             <td>

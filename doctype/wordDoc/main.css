@@ -27,3 +27,15 @@ div.desc {
 a {
 	color: #000;
 }
+a.back {
+	color: #0200ff;
+}
+mark {
+	background-color: #fff;
+}
+mark.a {
+	color: #00ff21
+}
+mark.b {
+	color: #0200ff
+}

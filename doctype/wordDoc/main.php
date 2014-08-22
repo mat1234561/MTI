@@ -7,7 +7,8 @@
         <title>WordDoc</title>
     </head>
     <body>
-		<a href="../main.php">&#8592 Back</a>
+		<a class="back" href="../main.php">&#8592 Back</a>
+		<h1><mark class="a">Word</mark><mark class="b">Doc</mark></h1>
         <table>
         <tr>
             <td>
