@@ -23,3 +23,19 @@ div.desc {
     width: 70px;
     margin: 5px;
 }
+
+div.pos {
+	margin: auto;
+	text-align: center;
+}
+a.signout {
+	color: #0000ff;
+}
+table {
+	text-align: center;
+	margin: auto;
+}
+
+a {
+	color: #000000
+}

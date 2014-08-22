@@ -2,8 +2,8 @@ div.img {
     margin: 2px;
     padding: 2px;
     border: 2px solid #ff6a00;
-    height: auto;
-    width: auto;
+    height: 80px;
+    width: 120px;
     float: left;
     text-align: center;
 }
@@ -20,6 +20,7 @@ div.img a:hover img {
 div.desc {
     text-align: center;
     font-weight: normal;
-    width: 70px;
+    width: auto;
     margin: 5px;
+	overflow-wrap: break-word;
 }

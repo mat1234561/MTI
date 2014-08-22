@@ -13,7 +13,12 @@
         <?php
                 $d = dir("../../mtiUser/".$_COOKIE['user']."/docType/wordDoc");
                 while (($file = $d->read()) !== false){ 
-                    echo '<div class="img"><a href="code/edit.php?file='.$file.'"><div class="desc">'.$file.'</div></a></div>';
+                    if ($file != ".") {
+						if ($file != "..") {
+							echo '<a href="code/edit.php?file='.$file.'">
+							<div class="img"><div class="desc">'.$file.'</div></div></a>';
+						}
+					} 
                 } 
                 $d->close();
         ?>

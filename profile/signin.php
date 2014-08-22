@@ -12,9 +12,12 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/signin.css">
         <title></title>
     </head>
     <body>
+		<div>
+			<img src="mti.png">
         Please Sign-in to your MTI account<br>
         to access even more awsomeness!<br>
         <?php echo "<h3>".$_GET["error"]."</h3>"; ?><br>
@@ -27,6 +30,7 @@
             Password:<input type="password" name="pass" value="" required><br>
             <input type="submit" value="Sign-in"> <br>         
         </form>
-        <a href="signup.php">Signup</a><br>
+        <a href="signup.php">Create an Account</a><br>
+		</div>
     </body>
 </html>
