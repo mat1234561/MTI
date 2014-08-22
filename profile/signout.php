@@ -1,5 +1,5 @@
 <?php
-    header('Location: ../approved.php?user=empty&goto=profile/signedout.html');
+    header('Location: ../approved.php?user=empty&goto=profile/signin.php?error=Your Signed Out');
 ?>
 
 <!DOCTYPE html>
