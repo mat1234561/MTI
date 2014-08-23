@@ -29,6 +29,10 @@
     fwrite($myfile, $_POST["def"]);
     fclose($myfile);
 
+	$myfile = fopen("../../mtiUser/".$_COOKIE["user"]."/docType/wordDoc/".$nameof."/name.txt", "w");
+    fwrite($myfile, $nameroot);
+    fclose($myfile);
+
 	$myfile = fopen("../../mtiUser/".$_COOKIE["user"]."/docType/quizDoc/".$nameof."/edit.txt", "w");
     fwrite($myfile, "true");
     fclose($myfile);
