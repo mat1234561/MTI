@@ -1,3 +1,8 @@
+
 function rename() {
-	alert("<iframe src='rename.php'>HI</iframe>");
+    var namere = prompt("Rename your document:");
+    
+    if (namere != null) {
+        document.getElementById("name").value = namere;
+    }
 }

@@ -12,7 +12,7 @@
     <body>
 		<script src="edit.js"></script>
 		<div class="ribbon">
-		<input type="button" class="buttonN" onclick="rename()" value="<?php echo $_GET['file']; ?>">
+		<input type="button" class="buttonN" id="name" onclick="rename()" value="<?php echo $name; ?>" required>
 		<input type="button" class="button" value="NEW">
 		<input type="button" class="button" value="SAVE">
 		<input type="button" class="button" value="SHARE">
@@ -21,6 +21,5 @@
 		<input type="button" class="button" value="TEST">
 		<input type="button" class="button" value="STUDY">
 		</div>
-        
     </body>
 </html>
