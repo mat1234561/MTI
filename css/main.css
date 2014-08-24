@@ -1,0 +1,22 @@
+body {
+    background-color:#ff6a00;
+}
+
+td.a
+{
+text-align:right;
+}
+td.b
+{
+text-align:left;
+}
+
+tr {
+    padding:10px;
+    text-align:center;
+    border: 1px solid green;
+}
+td {
+    padding:5px;
+    border: 1px solid green;
+}

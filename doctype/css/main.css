@@ -1,0 +1,41 @@
+div.img {
+    margin: 2px;
+    padding: 2px;
+    border: 2px solid #ff6a00;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: initial;
+}
+
+div.img a:hover img {
+    border:0px solid #000000;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 70px;
+    margin: 5px;
+}
+
+div.pos {
+	margin: auto;
+	text-align: center;
+}
+a.signout {
+	color: #0000ff;
+}
+table {
+	text-align: center;
+	margin: auto;
+}
+
+a {
+	color: #000000;
+}
