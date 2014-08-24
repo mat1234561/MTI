@@ -1,4 +1,0 @@
-First_name
-Last_name
-Nickname
-Screen_name

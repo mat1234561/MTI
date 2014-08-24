@@ -1,5 +1,0 @@
-email
-phone
-city
-zip
-state
