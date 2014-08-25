@@ -17,8 +17,11 @@
                 while (($file = $d->read()) !== false){ 
                     if ($file != ".") {
 						if ($file != "..") {
+$myfile = fopen("../../mtiUser/".$_COOKIE['user']."/docType/webDoc/".$file."/name.txt", "r");
+$editS = fgets($myfile);
+fclose($myfile);
 							echo '<a class="black" href="code/editor.php?owner='.$_COOKIE["user"].'&edit=true&file='.$file.'">
-							<div class="img"><div class="desc">'.$file.'</div></div></a>';
+							<div class="img"><div class="desc">'.$editS.'</div></div></a>';
 						}
 					} 
                 } 
