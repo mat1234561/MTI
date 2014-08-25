@@ -1,8 +1,5 @@
 
-function rename() {
-    var namere = prompt("Rename your document:");
-    
-    if (namere != null) {
-        document.getElementById("name").value = namere;
-    }
+function myFunction() {
+    var x = String.fromCharCode(event.which);
+    alert(x);
 }

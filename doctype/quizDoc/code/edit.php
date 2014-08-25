@@ -1,5 +1,7 @@
 <?php
-
+$myfile = fopen("../../../mtiUser/".$_GET['owner']."/docType/quizDoc/".$_GET['file']."/name.txt", "r");
+$editS = fgets($myfile);
+fclose($myfile);
 ?>
 
 <!DOCTYPE html>
@@ -10,9 +12,8 @@
         <title></title>
     </head>
     <body>
-		<script src="edit.js"></script>
-		<div class="ribbon">
-		<input type="button" class="buttonN" id="name" onclick="rename()" value="<?php echo $name; ?>" required>
+		<div class="ribbon" id="hi">
+		<input type="text" class="buttonN" value="<?php echo $editS; ?>" >
 		<input type="button" class="button" value="NEW">
 		<input type="button" class="button" value="SAVE">
 		<input type="button" class="button" value="SHARE">
@@ -21,5 +22,7 @@
 		<input type="button" class="button" value="TEST">
 		<input type="button" class="button" value="STUDY">
 		</div>
+        <script src="edit.js"></script>
+
     </body>
 </html>
