@@ -2,6 +2,8 @@
 $myfile = fopen("../../../mtiUser/".$_GET['owner']."/docType/quizDoc/".$_GET['file']."/name.txt", "r");
 $editS = fgets($myfile);
 fclose($myfile);
+
+
 ?>
 
 <!DOCTYPE html>
@@ -13,9 +15,9 @@ fclose($myfile);
     </head>
     <body>
 		<div class="ribbon" id="hi">
-		<input type="text" class="buttonN" value="<?php echo $editS; ?>" >
+		<input type="button" class="buttonN" value="<?php echo $editS; ?>" >
 		<input type="button" class="button" value="NEW">
-		<input type="button" class="button" value="SAVE">
+		<input type="submit" class="button" value="SAVE">
 		<input type="button" class="button" value="SHARE">
 		<input type="button" class="button" value="VIEW">
 		<input type="button" class="button" value="RESPONCES">
@@ -23,6 +25,5 @@ fclose($myfile);
 		<input type="button" class="button" value="STUDY">
 		</div>
         <script src="edit.js"></script>
-
     </body>
 </html>
