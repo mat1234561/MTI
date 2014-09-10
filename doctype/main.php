@@ -89,6 +89,15 @@
         </div>
 		</a>
             </td>
+        <td>
+		<a href="talkDoc/main.php">
+        <div class="img">
+            <img src="talkLogo.png" alt="PNG" width="68" height="68">
+        <div class="desc">TalkDoc</div>
+        </div>
+        </div>
+		</a>
+            </td>
         </tr>
         </table>
 		</div>
