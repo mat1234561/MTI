@@ -23,3 +23,16 @@ div.renameBox {
     color: #00ff21;
     z-index: 1;
 }
+iframe.buttonN {
+    border: 3px solid #00ff21;
+	margin: 2px;
+	width: 370px;
+	height: 50px;
+    text-align: center;
+}
+iframe.button {
+	border: 3px solid #00ff21;
+	margin: 2px;
+	width: 100px;
+	height: 50px;
+}

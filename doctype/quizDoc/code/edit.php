@@ -16,14 +16,13 @@ fclose($myfile);
     <body>
 		<div class="ribbon" id="hi">
 		<input type="button" class="buttonN" value="<?php echo $editS; ?>" >
-		<input type="button" class="button" value="NEW">
-		<input type="submit" class="button" value="SAVE">
+		<input type="button" class="button" value="NEW" onmousedown="">
+		<input type="button" class="button" value="SAVE">
 		<input type="button" class="button" value="SHARE">
 		<input type="button" class="button" value="VIEW">
 		<input type="button" class="button" value="RESPONCES">
 		<input type="button" class="button" value="TEST">
 		<input type="button" class="button" value="STUDY">
 		</div>
-        <script src="edit.js"></script>
     </body>
 </html>
