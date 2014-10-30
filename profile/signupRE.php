@@ -12,7 +12,6 @@
              MTI account sign up.<br>
             <br>
             Its a good idea to use your email address for your username.<br>
-            The username is used only at login.<br>
             <br>
             <?php echo $_GET["error"] ?>
             <br><br>

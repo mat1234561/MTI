@@ -13,7 +13,6 @@
             MTI account sign up.<br>
             <br>
             Its a good idea to use your email address for your username.<br>
-            The username is used only at login.<br>
             Username:<input type="text" name="user" required>* A login name and others see you.<br>
             Password:<input type="password" name="pass" required>* A login password.<br>
             First Name:<input type="text" name="fname" required>* Your firstname.<br>

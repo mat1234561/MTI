@@ -29,6 +29,9 @@
                 case "doctype":
                     header( 'Location: doctype/index.html' ) ;
                     break;
+                case "school":
+                    header( 'Location: classroom/index.html' ) ;
+                    break;
                 default:
                     header( 'Location: index.html' ) ;
             }
